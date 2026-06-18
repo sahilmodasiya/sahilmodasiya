@@ -1,0 +1,41 @@
+# Save this file as: .github/workflows/profile3d.yml  (in your sahilmodasiya/sahilmodasiya repo)
+#
+# What it does:
+# Turns your contribution calendar into a rotating, animated 3D bar-chart SVG
+# using yoshi389111/github-profile-3d-contrib, then pushes the generated
+# files to a branch called "output-3d-contrib" — same pattern as snake.yml,
+# so it keeps build artifacts out of your main branch.
+
+name: generate 3d contribution graph
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"   # once a day
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}       # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate the 3d contribution svgs
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: push the generated svgs to the "output-3d-contrib" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output-3d-contrib
+          build_dir: profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
