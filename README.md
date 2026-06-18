@@ -198,24 +198,6 @@ Engineering clarity with design precision.
 
 ---
 
-<details>
-<summary>🎧 <b>Currently Listening on Spotify</b> — optional, click to expand setup</summary>
-<br/>
-
-<p align="center">
-  <img src="https://YOUR-DEPLOYED-INSTANCE.vercel.app/api/orchestrator" alt="Live Spotify now-playing card" />
-</p>
-
-This widget shows your real-time playing track and needs a personal instance (it reads your private Spotify session, so it can't run off a shared public URL):
-
-1. Fork [novatorem/novatorem](https://github.com/novatorem/novatorem)
-2. Connect your Spotify account and deploy the fork to Vercel (free tier)
-3. Replace the placeholder URL above with your deployed `https://<your-project>.vercel.app/api/orchestrator`
-
-</details>
-
----
-
 ## 🚀 Current Focus
 
 - Advanced RAG optimization & retrieval tuning
