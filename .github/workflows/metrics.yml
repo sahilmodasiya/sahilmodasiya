@@ -1,0 +1,34 @@
+# OPTIONAL BONUS — Save as: .github/workflows/metrics.yml
+#
+# This generates a much richer animated stats image (isometric contribution
+# calendar, language habits, etc.) using lowlighter/metrics, and commits it
+# as metrics.svg in your repo. If you use it, add this to your README:
+#
+#   <img src="https://raw.githubusercontent.com/sahilmodasiya/sahilmodasiya/main/metrics.svg" />
+#
+# Setup: create a Personal Access Token with "repo" + "read:user" scopes,
+# then add it as a repository secret named METRICS_TOKEN
+# (Settings > Secrets and variables > Actions > New repository secret).
+
+name: metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_habits: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
