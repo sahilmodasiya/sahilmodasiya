@@ -22,7 +22,6 @@ AI Systems Architect • Cloud Engineer • Full-Stack Developer • Product-Dri
   <a href="#-ai--intelligent-systems">AI Systems</a> •
   <a href="#%EF%B8%8F-cloud--devops-architecture">Cloud</a> •
   <a href="#-full-stack--real-time-systems">Full-Stack</a> •
-  <a href="#-github-trophy-room">Trophies</a> •
   <a href="#-engineering-analytics">Analytics</a> •
   <a href="#-connect">Connect</a>
 </p>
@@ -153,16 +152,6 @@ Engineering clarity with design precision.
 **Backend:** Node.js • Rust
 **Frontend:** React • Angular
 **DevOps:** Docker • CI/CD
-
----
-
-## 🏆 GitHub Trophy Room
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sahilmodasiya&theme=tokyonight&no-bg=true&no-frame=true&row=1&column=7&margin-w=8" />
-</p>
-
-<p align="center"><sub>Each trophy flips and updates automatically based on live GitHub stats.</sub></p>
 
 ---
 
