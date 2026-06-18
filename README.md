@@ -1,143 +1,240 @@
-<!-- ================= HEADER ================= -->
+<!-- ===================================================== -->
+<!--                    AI COMMAND CENTER                  -->
+<!-- ===================================================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:1f3b4d,100:2c5364&height=230&section=header&text=Sahil%20Modasiya&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
-</p>
-
-<h3 align="center">
-AI Systems Architect • Cloud Engineer • Full-Stack Developer • Product-Driven Designer
-</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00E6FF&size=22&center=true&vCenter=true&width=700&lines=Designing+Intelligent+Cloud-Native+Systems;Building+RAG+%7C+LLM+%7C+Vector+Search+Architectures;Microservices+%7C+DevOps+%7C+Real-Time+Infrastructure;Engineering+with+Scalability+and+Precision" />
-</p>
-
----
-
-## 🧠 AI & Intelligent Systems
-
-<p align="center">
-  <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="500"/>
-</p>
-
-**Specialized in production-ready AI systems**
-
-- Retrieval-Augmented Generation (RAG) architectures  
-- OpenAI / LLM orchestration  
-- Vector databases (Qdrant)  
-- ElasticSearch reranking pipelines  
-- Dockerized local AI microservices  
-- Toxicity & sensitive-content filtering systems  
-- Embedding pipelines & response optimization  
-- Latency-aware AI response systems  
-
-I design AI infrastructure that is reliable, safe, and scalable.
-
----
-
-## ☁️ Cloud & DevOps Architecture
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f3b4d,100:2c5364&height=140&section=header&text=Cloud%20Architecture%20%7C%20Microservices%20%7C%20CI/CD&fontSize=24&fontColor=ffffff" />
-</p>
-
-**Cloud-native engineering built for scale**
-
-- AWS (EC2, S3, serverless patterns)  
-- Microservices architecture  
-- Docker containerization  
-- CI/CD automation pipelines  
-- Infrastructure optimization  
-- Observability & production monitoring  
-- Performance & cost optimization strategies  
-
-Reliability-first infrastructure design.
-
----
-
-## 💻 Full-Stack & Real-Time Systems
-
-<p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="500"/>
-</p>
-
-### Frontend
-React • Angular • Performance Optimization • Clean UI Systems • Responsive Layouts
-
-### Backend
-Node.js • Rust (performance-critical services)  
-REST • GraphQL • Socket.IO • SSE  
-
-### Mobile
-React Native • Capacitor  
-
-From user interface to distributed backend systems.
-
----
-
-## 🎨 Design & Product Thinking
-
-<p align="center">
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="500"/>
-</p>
-
-- UI/UX design (Figma)  
-- Branding & visual systems  
-- Design-to-development workflow  
-- Prototyping & interaction design  
-- Developer-friendly component systems  
-
-Engineering clarity with design precision.
-
----
-
-## ⚙️ Core Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,angular,nodejs,rust,aws,docker,graphql,figma" />
-</p>
-
-**AI:** OpenAI • RAG • Qdrant • ElasticSearch  
-**Cloud:** AWS • Serverless • Microservices  
-**Backend:** Node.js • Rust  
-**Frontend:** React • Angular  
-**DevOps:** Docker • CI/CD  
-
----
-
-## 📊 Engineering Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sahilmodasiya&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahilmodasiya&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=12,20,24,30&text=Sahil%20Modasiya&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%20Systems%20Architect%20•%20Cloud%20Engineer%20•%20Full-Stack%20Developer&descAlignY=60" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sahilmodasiya&theme=tokyo-night&hide_border=true" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=00E6FF&center=true&vCenter=true&width=1000&lines=Building+Intelligent+Systems;Designing+Cloud-Native+Architectures;Engineering+Production-Ready+AI;RAG+%7C+Vector+Search+%7C+LLMs;Rust+%7C+Node.js+%7C+AWS+%7C+Docker" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sahilmodasiya&label=PROFILE+VIEWS&style=for-the-badge&color=blueviolet"/>
+  <img src="https://img.shields.io/github/followers/sahilmodasiya?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/sahilmodasiya?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🚀 Current Focus
+# ⚡ AI SYSTEM STATUS
 
-- Advanced RAG optimization & retrieval tuning  
-- Distributed AI microservice orchestration  
-- Performance-critical Rust backend modules  
-- Clean architecture & domain-driven design  
-- AI safety & content moderation systems  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=400&color=00FF88&center=true&vCenter=true&multiline=true&width=900&height=120&lines=%3E+Initializing+AI+Systems...;%3E+Connecting+Cloud+Infrastructure...;%3E+Loading+Vector+Database...;%3E+Deploying+Microservices...;%3E+System+Online+✓" />
+</p>
 
 ---
 
-## 🤝 Connect
+# 🧠 AI ARCHITECTURE
+
+```mermaid
+flowchart LR
+
+    User --> API
+    API --> RAG
+
+    RAG --> Qdrant
+    RAG --> OpenAI
+
+    Qdrant --> Context
+    OpenAI --> Context
+
+    Context --> Response
+
+    Response --> User
+````
+
+---
+
+# 🚀 CURRENT FOCUS
+
+```text
+✓ Advanced RAG Optimization
+✓ AI Safety Systems
+✓ Distributed Microservices
+✓ Rust Backend Services
+✓ Vector Search Infrastructure
+✓ Cloud Cost Optimization
+```
+
+---
+
+# 🛠 TECH UNIVERSE
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,angular,nodejs,rust,docker,aws,redis,postgres,mongodb,graphql,linux,git,github,figma,vscode" />
+</p>
+
+---
+
+# 🤖 AI STACK
+
+<table align="center">
+<tr>
+<td>
+
+### LLMs
+
+* OpenAI
+* GPT
+* Function Calling
+* Prompt Engineering
+
+</td>
+<td>
+
+### Retrieval
+
+* RAG
+* Qdrant
+* ElasticSearch
+* Hybrid Search
+
+</td>
+<td>
+
+### Infrastructure
+
+* Docker
+* AWS
+* CI/CD
+* Microservices
+
+</td>
+</tr>
+</table>
+
+---
+
+# 📈 ENGINEERING ANALYTICS
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sahilmodasiya&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=sahilmodasiya&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+# 📊 CONTRIBUTION GRAPH
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sahilmodasiya&theme=react-dark&hide_border=true&area=true" />
+</p>
+
+---
+
+# 🏆 ACHIEVEMENTS
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sahilmodasiya&theme=algolia&row=1&column=7&margin-w=15" />
+</p>
+
+---
+
+# 🐍 CONTRIBUTION SNAKE
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sahilmodasiya/sahilmodasiya/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+---
+
+# 📋 DEVELOPMENT METRICS
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sahilmodasiya&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sahilmodasiya&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sahilmodasiya&theme=github_dark" />
+</p>
+
+---
+
+# ⚙️ LIVE WORKFLOW
+
+```text
+User Query
+     ↓
+Embedding Generation
+     ↓
+Vector Search
+     ↓
+Context Retrieval
+     ↓
+LLM Reasoning
+     ↓
+Response Optimization
+     ↓
+Delivered
+```
+
+---
+
+# 🎯 FEATURED DOMAINS
+
+<details>
+<summary>🧠 Artificial Intelligence</summary>
+
+* RAG Systems
+* LLM Orchestration
+* AI Safety
+* Embedding Pipelines
+* Vector Search
+* Response Optimization
+
+</details>
+
+<details>
+<summary>☁️ Cloud Engineering</summary>
+
+* AWS
+* Docker
+* CI/CD
+* Monitoring
+* Observability
+* Cost Optimization
+
+</details>
+
+<details>
+<summary>⚡ Performance Engineering</summary>
+
+* Rust
+* Distributed Systems
+* Microservices
+* Real-Time APIs
+* Scalability
+
+</details>
+
+---
+
+# 💭 DAILY INSPIRATION
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+</p>
+
+---
+
+# 📫 CONNECT
 
 <p align="center">
   <a href="mailto:sahilgajjar296@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sahilgajjar296%40gmail.com-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail"/>
+  </a>
+
+  <a href="https://github.com/sahilmodasiya">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/>
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:1f3b4d,100:0f2027&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=150&color=gradient"/>
 </p>
